@@ -1,0 +1,11 @@
+frontend:
+    path: .
+    publish: build
+    scripts:
+        deploy:
+            - npm install --legacy-peer-deps
+            - npm run build
+    subdomain: rosybrown-single-prairiedog
+name: vision-ui-dashboard-react
+region: us-east-1
+yamlVersion: 2
